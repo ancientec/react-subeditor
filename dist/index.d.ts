@@ -1,5 +1,5 @@
 import React from 'react';
-import SubEditor, { SubEditorOption } from 'subeditor';
+import SubEditor, { ChangeEntry, SubEditorEvent, ToolbarItem, SelectionSlimState, SubEditorHTMLElement, SubEditorOption } from 'subeditor';
 export default class SubEditorComponent extends React.Component<any, any> {
     refInstance: React.RefObject<HTMLDivElement>;
     private _subeditor;
@@ -9,4 +9,4 @@ export default class SubEditorComponent extends React.Component<any, any> {
     componentWillUnmount(): void;
     render(): JSX.Element;
 }
-export { SubEditor, SubEditorOption };
+export { SubEditor, ChangeEntry, SubEditorEvent, ToolbarItem, SelectionSlimState, SubEditorHTMLElement, SubEditorOption };

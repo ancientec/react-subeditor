@@ -1,5 +1,5 @@
 import React from 'react';
-import SubEditor,{SubEditorOption, SubEditorHTMLElement} from 'subeditor';
+import SubEditor,{ChangeEntry, SubEditorEvent, ToolbarItem, SelectionSlimState, SubEditorHTMLElement, SubEditorOption} from 'subeditor';
 
 
 export default class SubEditorComponent extends React.Component<any, any> {
@@ -25,4 +25,4 @@ export default class SubEditorComponent extends React.Component<any, any> {
 
 }
 
-export { SubEditor, SubEditorOption};
+export { SubEditor, ChangeEntry, SubEditorEvent, ToolbarItem, SelectionSlimState, SubEditorHTMLElement, SubEditorOption};

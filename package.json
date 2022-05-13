@@ -1,9 +1,12 @@
 {
     "name": "react-subeditor",
     "description": "subeditor for react",
-    "version": "0.5.0",
+    "version": "0.6.0",
     "keywords": [
         "subeditor",
+        "wysiwyg",
+        "html",
+        "editor",
         "react"
     ],
     "author": "Ancientec Co., Ltd.",
@@ -17,6 +20,9 @@
         "build": "npm run clean &&  tsc",
         "docs": "typedoc --entryPoints lib/index.tsx"
     },
+    "dependencies": {
+        "subeditor": "^0.6.0"
+    },
     "devDependencies": {
         "@types/react": "^17.0.43",
         "@types/react-dom": "^17.0.14",
@@ -25,7 +31,6 @@
         "react": "^18.0.0",
         "react-dom": "^18.0.0",
         "source-map-support": "^0.5.21",
-        "subeditor": "^0.5.5",
         "typescript": "^4.3.5"
     },
     "peerdependencies": {
