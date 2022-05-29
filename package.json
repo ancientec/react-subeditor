@@ -1,7 +1,7 @@
 {
     "name": "react-subeditor",
     "description": "subeditor for react",
-    "version": "0.6.0",
+    "version": "0.6.1",
     "keywords": [
         "subeditor",
         "wysiwyg",
@@ -21,7 +21,7 @@
         "docs": "typedoc --entryPoints lib/index.tsx"
     },
     "dependencies": {
-        "subeditor": "^0.6.0"
+        "subeditor": "^0.6.1"
     },
     "devDependencies": {
         "@types/react": "^17.0.43",
